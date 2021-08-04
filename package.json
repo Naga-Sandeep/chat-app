@@ -1,0 +1,16 @@
+{
+  "name": "client-server-template",
+  "version": "1.0.0",
+  "description": "client-server template with react, node and express.",
+  "main": "index.js",
+  "author": "Naga",
+  "license": "ISC",
+  "scripts": {
+    "dev": "lerna run dev --parallel",
+    "prepare": "lerna exec -- npm ci --unsafe-perm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}

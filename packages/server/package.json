@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "server template with Node & Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "clear; nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.19.0",
+    "eslint-plugin-security": "^1.4.0",
+    "nodemon": "^2.0.12"
+  }
+}
