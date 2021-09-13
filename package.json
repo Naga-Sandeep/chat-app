@@ -1,7 +1,7 @@
 {
-  "name": "client-server-template",
+  "name": "chat-app",
   "version": "1.0.0",
-  "description": "client-server template with react, node and express.",
+  "description": "chat-app with react, node and express.",
   "main": "index.js",
   "author": "Naga",
   "license": "ISC",
